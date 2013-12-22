@@ -11,7 +11,11 @@
     each.call(sources, function(source) {
       if(source) {
         for(var prop in source) {
-          obj[prop] = source[prop];
+          if(typeof source[prop] === 'object' && obj[prop]) {
+            extend.call(obj, obj[prop], source[prop]);
+          } else {
+            obj[prop] = source[prop];
+          }
         } 
       }
     });
