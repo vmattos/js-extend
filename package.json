@@ -4,7 +4,7 @@
   "description": "A simple extend function based on underscore",
   "main": "extend.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test-runner"
   },
   "repository": {
     "type": "git",
