@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/vmattos/js-extend/issues"
   },
-  "homepage": "https://github.com/vmattos/js-extend"
+  "homepage": "https://github.com/vmattos/js-extend",
+  "devDependencies": {
+    "nodeunit": "~0.8.2"
+  }
 }
