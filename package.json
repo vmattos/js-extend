@@ -1,6 +1,6 @@
 {
   "name": "js-extend",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "A simple extend function based on underscore",
   "main": "extend.js",
   "scripts": {
