@@ -1,4 +1,10 @@
-(function() { 
+(function(factory) {
+  if(typeof exports === 'object') {
+    factory(exports);
+  } else {
+    factory(this);
+  }
+}).call(this, function(root) { 
 
   var slice   = Array.prototype.slice,
       each    = Array.prototype.forEach;
@@ -23,6 +29,5 @@
     return obj;
   }
 
-  this.extend = extend;
-
-}).call(this);
+  root.extend = extend;
+});
